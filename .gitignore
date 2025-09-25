@@ -1,0 +1,19 @@
+# ---- Python ----
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# SQLite DB
+*.sqlite3
+
+# ---- Node / React ----
+node_modules/
+build/
+dist/
+
+# ---- Environment ----
+.env
+.env.*
+.DS_Store
