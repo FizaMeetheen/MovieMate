@@ -264,6 +264,7 @@ function User({ setMovies }) {
                     </div>
                   )}
 
+                  {/* View More and Delete movie buttons */}
                   <button
                     className="btn btn-dark mt-2 w-100"
                     onClick={() => handleViewMore(c)}

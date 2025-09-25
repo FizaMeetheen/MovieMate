@@ -13,7 +13,7 @@ function MovieDetails({ movie, setSelectedMovie, setMovies }) {
     setRating(0);
     setReview("");
 
-    // Parse existing reviews
+    
     if (movie.review) {
       try {
         const parsed = JSON.parse(movie.review);

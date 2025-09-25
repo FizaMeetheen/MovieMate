@@ -4,9 +4,6 @@ import { Link, useLocation } from "react-router-dom";
 function Header() {
   const location = useLocation();
 
-  // Hide header on login/register pages
-  if (location.pathname === "/login" || location.pathname === "/register") return null;
-
   return (
     <header
       className="d-flex justify-content-between align-items-center px-4 py-3"
@@ -17,7 +14,7 @@ function Header() {
         zIndex: 999,
       }}
     >
-      {/* Logo */}
+      
       <h1
         style={{
           fontFamily: "Broadway, sans-serif",
